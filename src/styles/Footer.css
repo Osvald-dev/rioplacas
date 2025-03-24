@@ -1,0 +1,81 @@
+.footer {
+    background-color: white !important;
+    color: black !important;
+    padding: 0px !important;
+    text-align: center;
+    border-top: 3px solid #800020; /* Bordó */
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #800020; /* Bordó */
+  }
+  
+  .footer-contact p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .footer-contact p a:hover {
+    color: #800020;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 1em;
+  }
+  
+  .footer-social .social-link {
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social .social-link:hover {
+    color: #800020;
+  }
+  
+  .footer-bottom {
+    background-color: black;
+    color: rgb(219, 213, 213);
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #800020;
+    font-size: 0.9rem;
+  }
+  .siguenos{
+    color: black;
+  }
+  .hss{
+    color: #b61111;
+  }
+  .redes{
+    color: black;
+    max-width: 40px;
+  }

@@ -1,0 +1,22 @@
+.back-button {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    color: #ff6600;
+  }
+  
+  .arrow-icon {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  

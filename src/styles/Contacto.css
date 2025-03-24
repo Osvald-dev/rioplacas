@@ -1,0 +1,39 @@
+.contacto-container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contacto-form input,
+  .contacto-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contacto-form button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .whatsapp-button {
+    display: block;
+    background: #25d366;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .map-container {
+    margin-top: 20px;
+  }
+  

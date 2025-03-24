@@ -1,0 +1,89 @@
+
+  /* Logo centrado */
+
+
+ /* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    position: relative;
+  }
+  
+  /* Botón de menú */
+  .menu-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  /* Logo centrado */
+  .logo {
+   width: 10rem;
+   height: auto;
+  }
+  @media screen and (max-width:480px) {
+    .logo {
+        width: 7.2rem;
+        height: auto;
+    }
+  }
+  
+  /* Redes sociales */
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+  /* Menú con diseño minimalista */
+  .nav-menu {
+    position: fixed;
+    top: 5rem;
+    right: -100%;
+    width: 70%;
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s ease-in-out;
+  }
+  
+  .nav-menu.open {
+    left: 0;
+    z-index: 123123;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-menu li {
+    margin: 20px 0;
+  }
+  
+  .nav-menu a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    color: #b22222;
+  }
+  
