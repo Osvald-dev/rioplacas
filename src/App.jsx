@@ -10,6 +10,7 @@ import WhatsAppButton from "./components/WhatsappButton.jsx";
 
 const App = () => {
   return (
+    <BrowserRouter basename="/rioplacas">
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,6 +24,7 @@ const App = () => {
       
       <WhatsAppButton /> 
     </Router>
+    </BrowserRouter>
   );
 };
 
