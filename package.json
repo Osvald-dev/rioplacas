@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://osvald-dev.github.io/rioplacas",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
