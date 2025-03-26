@@ -27,6 +27,14 @@
    width: 10rem;
    height: auto;
   }
+  .logo-container{
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
   @media screen and (max-width:480px) {
     .logo {
         width: 7.2rem;
@@ -44,6 +52,29 @@
     color: rgb(0, 0, 0);
     font-size: 20px;
   }
+  /* Botón de llamada a la acción */
+.cta-button {
+  background-color: #b22222;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #8b1a1a;
+}
+
+/* Slogan */
+.slogan {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  margin-top: 5px;
+}
+
   
   /* Menú con diseño minimalista */
   .nav-menu {
