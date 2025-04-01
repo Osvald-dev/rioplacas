@@ -22,7 +22,7 @@ const Navbar = () => {
                 <Link to="/" onClick={closeMenu}>
                     <img className="logo" src={logo} alt="Rio Placas - Construcción en Seco" />
                 </Link>
-                <p className="slogan">SINÓNIMO DE INNOVACIÓN Y COMPROMISO </p>
+                <p className="slogan">TU PROYECTO NUESTRO COMPROMISO </p>
             </div>
 
 

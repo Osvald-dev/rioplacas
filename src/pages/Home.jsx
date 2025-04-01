@@ -23,13 +23,13 @@ const Home = () => {
       </section>
 
       <section className="about">
-        <h3 className="h-acerca">Materiales para construcción en seco y MDF</h3>
+        <h1 className="h-acerca">Materiales para construcción en seco, mobiliario y más, con la calidad que tu proyecto necesita.</h1>
         <p className="p-acerca">
-          A la ciudad de Río Cuarto llega Rio Placas S.A.S, sinónimo de innovación y compromiso.
+        En Río Cuarto, Rio Placas S.A.S es sinónimo de innovación y compromiso, ofreciendo soluciones en construcción en seco, MDP, MDF y tableros de madera para todo tipo de proyectos.
           <br /><br />
-          Brindamos soluciones de alta calidad en materiales para construcción en seco y MDF, asegurando el máximo confort y diseño en cada proyecto.
+          Contamos con una amplia variedad de productos, incluyendo tableros de pino, fenólicos, placas OSB, placas de yeso, aislantes, pinturas, pegamentos, cementos y varillados de madera, garantizando calidad, eficiencia y durabilidad.
           <br /><br />
-          Nuestra amplia cartera de productos está pensada para responder a las necesidades de cada cliente, garantizando eficiencia y durabilidad.
+          Nuestra amplia cartera de productos está pensada para responder a las necesidades de cada cliente.
           <br /><br />
           Junto a nuestros proveedores líderes, reafirmamos nuestro compromiso con la eco-arquitectura, apostando por materiales sustentables y un futuro más responsable.
         </p>

@@ -1,0 +1,113 @@
+.servicios-container {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  /* Video de fondo */
+  .video-container {
+    width: 100%;
+    /* max-height: 400px; */
+    overflow: hidden;
+  }
+  .video-container video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .video-servicios {
+    width: 100%;
+    height: 50vh; /* Ocupa el 70% de la pantalla */
+    max-height: 700px;
+    object-fit: cover;
+    display: block;
+  }
+  /* Grid de servicios */
+  .servicios-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .servicios-texto{
+    padding: 1em;
+    margin-top: 20px;
+ }
+  /* Card de servicio */
+  .servicio-card {
+    width: 100%;
+    max-width: 300px; /* Tamaño máximo de cada card */
+    max-height: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* En pantallas grandes, mostrar 2 columnas */
+  @media (min-width: 768px) {
+    .servicios-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      justify-content: center;
+    }
+  }
+  
+  /* En pantallas muy grandes, mostrar 4 columnas */
+  @media (min-width: 1200px) {
+    .servicios-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  .servicio-card:hover {
+    transform: scale(1.05);
+  }
+  .servicio-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .servicio-card h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #333;
+  }
+  .servicio-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Texto final */
+  .cta-text {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #444;
+    padding: 0 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   /* Diseño responsive: 2 columnas en pantallas grandes */
+   @media (min-width: 768px) {
+    .servicios-grid {
+      grid-template-columns: repeat(2, 1fr);
+      
+    }
+   
+  }
+
+  @media (max-width: 768px){
+    .video-servicios {
+        max-height: 300px; /* Reduce la altura en móviles */
+      }
+        
+ .servicios-texto{
+    padding: 6px;
+    margin-top: 10px;
+ }
+  }
