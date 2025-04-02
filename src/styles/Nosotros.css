@@ -1,0 +1,74 @@
+.nosotros-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilo del encabezado */
+  .nosotros-header {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .nosotros-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nosotros-header p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    margin: 10px auto;
+  }
+  
+  /* Imágenes estilo blog */
+  .nosotros-imagenes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  
+  .imagen-nosotros {
+    width: 100%;
+    max-width: 550px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Texto de presentación */
+  .nosotros-texto {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .nosotros-texto h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .nosotros-texto p {
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 1.6;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nosotros-imagenes {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .imagen-nosotros {
+      width: 90%;
+    }
+  }
+  
