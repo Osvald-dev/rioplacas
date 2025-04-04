@@ -47,9 +47,10 @@ const Categoria = () => {
       </div>
       
       {selectedSubcategory && (
-  <Modal 
-    product={selectedSubcategory} 
-    onClose={() => setSelectedSubcategory(null)} 
+  <Modal
+    product={selectedSubcategory}
+    categoria={categoryData.title} // Pasamos el título de la categoría actual
+    onClose={() => setSelectedSubcategory(null)}
   />
 )}
 

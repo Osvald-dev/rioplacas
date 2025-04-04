@@ -17,7 +17,9 @@ const Home = () => {
           <h2 className="h2-home">RIO PLACAS S.A.S</h2>
           <div className="hero-buttons">
             <Link to="/productos" className="btn-productos">Ver Productos</Link>
-            <a href="/public/catalogo.pdf" download className="btn-pdf">Descargar Catálogo</a>
+            <a href="catalogo.pdf" download="catalogo.pdf" className="btn-pdf">
+              Descargar Catálogo
+            </a>
           </div>
         </div>
       </section>
@@ -25,7 +27,7 @@ const Home = () => {
       <section className="about">
         <h1 className="h-acerca">Materiales para construcción en seco, mobiliario y más, con la calidad que tu proyecto necesita.</h1>
         <p className="p-acerca">
-        En Río Cuarto, Rio Placas S.A.S es sinónimo de innovación y compromiso, ofreciendo soluciones en construcción en seco, MDP, MDF y tableros de madera para todo tipo de proyectos.
+          En Río Cuarto, Rio Placas S.A.S es sinónimo de innovación y compromiso, ofreciendo soluciones en construcción en seco, MDP, MDF y tableros de madera para todo tipo de proyectos.
           <br /><br />
           Contamos con una amplia variedad de productos, incluyendo tableros de pino, fenólicos, placas OSB, placas de yeso, aislantes, pinturas, pegamentos, cementos y varillados de madera, garantizando calidad, eficiencia y durabilidad.
           <br /><br />
@@ -46,7 +48,7 @@ const Home = () => {
         <FAQ />
         <p>Todo lo que necesitás en un solo lugar: materiales para mueblería, construcción en seco, maderas, herramientas, bulonería y mucho más. Calidad, variedad y asesoramiento experto para hacer realidad tus proyectos. ¡Hablános hoy y encontrá lo que buscás!</p>
       </section>
-      
+
       <Footer />
     </>
   );

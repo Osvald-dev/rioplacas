@@ -20,8 +20,8 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-contact">
-                    <h4 className="hss">Contacto</h4>
-                    <p><strong>Teléfono:</strong> <a href="tel:+123456789">3584247937</a></p>
+                    <h4 className="hss">Contactos</h4>
+                    <p><strong>Teléfonos</strong> <br /> <a href="tel:+5493584247937">Belén: 3584247937</a><br /><a href="tel:+5493584247933">Cesar: 3584247933</a><br /><a href="tel:+5493512303188">Emanuel: 3512303188</a></p>
                     <p><strong>Email:</strong> <a href="mailto:info@bosquesdelsur.com">info@rioplacas.com</a></p>
                 </div>
 
@@ -39,8 +39,8 @@ const Footer = () => {
 
                 <div className="footer-social">
                     <h4 className="hss">Síguenos</h4>
-                    <a className="redes"href="#" aria-label="Instagram"><FaInstagram /></a>
-                    <a className="redes"href="#" aria-label="Facebook"><FaFacebookF /></a>
+                    <a href="https://www.instagram.com/rioplacas.sas" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram /></a>
+                    <a href="https://www.facebook.com/rioplacasmateriales/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FaFacebookF /></a>
                 </div>
             </div>
 

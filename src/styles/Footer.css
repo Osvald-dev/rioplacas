@@ -14,6 +14,9 @@
     margin: 0 auto;
     padding: 20px;
   }
+  .footer-links{
+    margin-bottom: 4px;
+  }
   
   .footer-links ul {
     list-style: none;
@@ -33,7 +36,9 @@
   .footer-links ul li a:hover {
     color: #800020; /* Bordó */
   }
-  
+  .footer-contact{
+    margin-bottom: 10px;
+  }
   .footer-contact p a {
     text-decoration: none;
     color: black;
@@ -74,6 +79,7 @@
   }
   .hss{
     color: #b61111;
+    font-size: 1.3rem;
   }
   .redes{
     color: black;

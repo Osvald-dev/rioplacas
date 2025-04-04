@@ -97,4 +97,20 @@
       padding: 8px 15px;
     }
   }
+  .modal-call-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #e56d0b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
   
+  .modal-call-button:hover {
+    background-color: #be361e;
+  }

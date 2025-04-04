@@ -27,8 +27,8 @@ const Navbar = () => {
 
 
             <div className="social-icons">
-                <a href="#" aria-label="Instagram"><FaInstagram /></a>
-                <a href="#" aria-label="Facebook"><FaFacebookF /></a>
+                <a href="https://www.instagram.com/rioplacas.sas" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram /></a>
+                <a href="https://www.facebook.com/rioplacasmateriales/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FaFacebookF /></a>
             </div>
 
             <nav className={`nav-menu ${menuOpen ? "open" : ""}`}>

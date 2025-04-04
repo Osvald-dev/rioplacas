@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import { useNavigate } from "react-router-dom"; // Importamos useNavigate
 import { FaArrowLeft } from "react-icons/fa";
 import img1 from '../assets/img/e.webp'
+import img2 from '../assets/img/equipo.webp'
 import "../styles/Nosotros.css";
 import Footer from '../components/Footer'
 
@@ -15,14 +16,12 @@ function Nosotros() {
         <FaArrowLeft className="arrow-icon" /> Volver
       </button>
       <div className="nosotros-container">
-          <h1>Sobre Nosotros</h1>
-          <p>Tenemos una amplia gama de productos para construcción en seco, MDF, MDP, Maderas y mucho mas..</p>
-       
+          <h2>Sobre Nosotros</h2>   
 
         {/* Imágenes estilo blog */}
         <section className="nosotros-imagenes">
           <img src={img1} alt="Rio Placas S.A.S - sucursal Rio Cuarto Cordoba" className="imagen-nosotros" />
-          <img src="/ruta-a-imagen2.jpg" alt="Equipo trabajando" className="imagen-nosotros" />
+          <img src= {img2} alt="Equipo trabajando - Rio Placas S.A.S" className="imagen-nosotros" />
         </section>
 
         {/* Texto de presentación */}
